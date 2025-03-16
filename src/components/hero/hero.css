@@ -48,7 +48,11 @@
 }
 
 .awards {
-    width: 30%;
+    width: 45%;
+}
+.awards h2 {
+    font-size: 23px;
+    
 }
 
 .awards p {
@@ -241,6 +245,9 @@
     .awards{
         width: 100%;
     }
+    .awards h2{
+        font-size: 16px;
+    }
 
     .awardlist{
         justify-content: center;
@@ -251,7 +258,7 @@
     }
 
     .contactLink {
-        
+        margin-top: 50px;
     }
 }
 

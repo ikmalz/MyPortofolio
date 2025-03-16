@@ -49,8 +49,8 @@ const Hero = () => {
         </motion.h1>
         {/* awards */}
         <motion.div variants={awardVariants} initial="initial" animate="animate" className="awards">
-          <motion.h2 variants={awardVariants}>Top Designer lokal</motion.h2>
-          <motion.p variants={awardVariants}>Lorem ipsum dolor sit amet consectetur adipisicing elit. </motion.p>
+          <motion.h2 variants={awardVariants}>  Aiming to be a Top Local Designer 🎨</motion.h2>
+          <motion.p variants={awardVariants}>  Blending creativity with code, one design at a time.</motion.p>
           <motion.div variants={awardVariants} className="awardlist">
             <motion.img variants={awardVariants} src="/award1.png" alt="" />
             <motion.img variants={awardVariants} src="/award2.png" alt="" />
@@ -107,17 +107,17 @@ const Hero = () => {
         {/* BUBBLE */}
         <Speech />
         {/* Certifikat */}
-        <motion.div animate={{opacity:[0,1]}} transition={{duration:1}} className="certificate">
+        <motion.div animate={{ opacity: [0, 1] }} transition={{ duration: 1 }} className="certificate">
           <img src="/logo_starbhak.jpeg" alt="" />
-          Smk 
+          Smk
           <br />
           Taruna
           <br />
           Bhakti
         </motion.div>
         {/* contact button */}
-        <motion.a href="/contact" className='contactLink' animate={{x:[200,0], opacity:[0,1]}} transition={{duration:2}}>
-          <motion.div className="contactButton" animate={{rotate:[0, 360]}} transition={{duration: 10, repeat:Infinity, ease:'linear'}}>
+        <motion.a href="/contact" className='contactLink' animate={{ x: [200, 0], opacity: [0, 1] }} transition={{ duration: 2 }}>
+          <motion.div className="contactButton" animate={{ rotate: [0, 360] }} transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}>
             <svg viewBox="0 0 200 200" width="150" height="150">
               <circle cx="100" cy="100" r="90" fill="pink" />
               <path
@@ -153,7 +153,7 @@ const Hero = () => {
         {/* 3d */}
         <Canvas>
           <Suspense fallback="loading....">
-          <Shape/>
+            <Shape />
           </Suspense>
         </Canvas>
         <div className="hImg">
