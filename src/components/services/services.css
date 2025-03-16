@@ -113,7 +113,7 @@
     }
 
     .service, .counterList{
-        width: 100%;
+        width: 90%;
     }
 }
 @media (max-width: 768px) {
@@ -127,7 +127,7 @@
     }
 
     .sSection{
-        width: 80%;
+        width: 100%;
     }
 
     .sSection.right {

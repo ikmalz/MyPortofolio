@@ -225,7 +225,7 @@
     }
 
     .hsection{
-        width: 100%;
+        width: 90%;
     }
 
     .hsection.left{
@@ -235,7 +235,7 @@
     }
 
     .hTitle{
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .awards{
@@ -248,6 +248,10 @@
 
     .follow, .bubbleContainer, .certificate{
         display: none;
+    }
+
+    .contactLink {
+        
     }
 }
 
