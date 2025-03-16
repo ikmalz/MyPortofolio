@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import './hero.css/'
 import Speech from './Speech'
 import { animate, motion, stagger } from 'framer-motion'
-import Shape from './shape'
+import Shape from './Shape'
 import { Canvas } from '@react-three/fiber'
 
 const awardVariants = {
